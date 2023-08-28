@@ -28,7 +28,7 @@ paracontainer.addEventListener("click", function(e){
 
 })
 
-function update(){
+function updae(){
     localStorage.setItem("data",paracontainer.innerHTML);
 }
 function show(){
