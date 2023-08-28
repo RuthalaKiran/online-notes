@@ -7,6 +7,7 @@ createbtn.addEventListener("click", ()=>{
     let img = document.createElement("img");
     p.className = "notes";
     p.setAttribute("contenteditable","true");
+    p.setAttribute("resize","none");
     img.src = "images/delete.png";
     paracontainer.appendChild(p).appendChild(img);
     update();
