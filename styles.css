@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid{
+    background-color: aqua;
+}
+/* .container{
+    height: 150vh;
+    
+} */
+.first .notes{
+    color: red;
+    font-size: 40px;
+    position: relative;
+    /* background-color: white; */
+    padding-left: 50px;
+    cursor:default;
+}
+.first .img1{
+    width: 40px;
+    position: absolute;
+    top:5px;
+    left: 0;
+}
+
+.first .create-notes{
+    color: white;
+    background-color: blue;
+    display: inline;
+   padding: 10px 20px 10px 42px;
+    border-radius: 15px;
+    font-size: 25px;
+    position: relative;
+    cursor: pointer;
+
+}
+.first .img2{
+    width: 23px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+.para-container{
+    width: 100%;
+    height: 490px;
+    /* background-color: red; */
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    border-radius: 5px;
+    /* transition: 2s; */
+}
+.para-container::-webkit-scrollbar{
+    width: 13px;
+}
+.para-container::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px black;
+    border-radius: 50px;
+}
+.para-container::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 140, 255);
+    border-radius: 50px;
+}
+.para-container::-webkit-scrollbar-thumb:hover{
+    background-color:blue;
+   
+}
+
+.para-container p{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    flex-basis: 48%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    box-shadow: none;
+    outline: none;
+    color: rgb(62, 12, 12);
+    
+}
+.para-container p:focus{
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 5px 5px 5px rgb(4, 4, 4,0.4);
+}
+.para-container img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 33px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.para-container img:focus{
+box-shadow: none;
+}
+@media screen and (max-width :1200px){
+    .para-container p{
+        flex-basis: 47%;
+        margin-left: 15px !important;
+    }
+}
+@media screen and (max-width :992px){
+    .para-container p{
+        flex-basis: 46%;
+        margin-left: 15px !important;
+    }
+}
+@media screen and (max-width :768px){
+    .para-container p{
+        flex-basis: 44%;
+        margin-left: 15px !important;
+    }
+}
+@media screen and (max-width :493px){
+    .para-container p{
+        flex-basis: 100%;
+        margin-left: 15px !important;
+    }
+}
+/* @media screen and (max-width :434px){
+    .para-container p{
+        flex-basis: 42%;
+        margin-left: 15px !important;
+    }
+}
+@media screen and (max-width :489px){
+    .para-container p{
+        flex-basis: 40%;
+        margin-left: 15px !important;
+    }
+} */
+@media screen and (max-width :413px) {
+    .para-container{
+        height: 650px;
+    }
+    
+}
+.col1{
+    width: 100%;
+    height: 2px;
+    background-color: red;
+}
+
+.devlo{
+    color: black;
+    font-size: 20px;
+    
+}
+
