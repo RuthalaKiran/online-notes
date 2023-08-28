@@ -28,10 +28,10 @@ paracontainer.addEventListener("click", function(e){
 
 })
 
-function updae(){
-    localStorage.setItem("data",paracontainer.innerHTML);
-}
-function show(){
-    paracontainer.innerHTML = localStorage.getItem("data");
-}
-show();
+// function update(){
+//     localStorage.setItem("data",paracontainer.innerHTML);
+// }
+// function show(){
+//     paracontainer.innerHTML = localStorage.getItem("data");
+// }
+// show();
